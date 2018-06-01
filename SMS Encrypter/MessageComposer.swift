@@ -10,7 +10,7 @@ import Foundation
 import MessageUI
 
 
-let textMessageRecipients: Array<Any> = [] // for pre-populating the recipients list
+let textMessageRecipients: Array<Any> = [] // Set ythe recipients array variable
 
 class MessageComposer: NSObject, MFMessageComposeViewControllerDelegate {
     
