@@ -69,7 +69,7 @@ class ViewController: UIViewController {
             inputText.text = decryptedMessage
             
             // Disable the share via sms button because sending the message as plain text is a flaw in the design of the app
-            sendViaSMS.isEnabled = true
+            sendViaSMS.isEnabled = false
         }
     }
     
