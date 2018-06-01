@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A2D899510B4287CEC5AD79E0C600A2 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43FD3BD3EC3F06B385485880B39A6D /* RNCryptor.swift */; };
+		18AF0A41966F0C98F0CDD2D9EB043B59 /* Pods-SMS EncrypterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DC3B3484D85212ABB4AF057CE99556 /* Pods-SMS EncrypterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A4C8D44EFA722BB8A7919F0699564C1 /* RNCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF044D04F98011D1F37E5479E1C9351 /* RNCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9D82C69CF10A3A893184CF70DEC18E /* Pods-SMS EncrypterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21598308D4A791F548973B71C7721AFC /* Pods-SMS EncrypterUITests-dummy.m */; };
+		51A211A401FC360B08748A275CC113EE /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF983CCA6A75F35DCFCB2BCDA767AFA /* RNCryptor-dummy.m */; };
+		5BACAB48E27DA9B8A944A546E67DC70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7909F5AB52DF1CEDFD9C1AB6323D394C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9E6BCE3A7FC3D9A2D4ACE6DE34D4DFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9313EDBCA48E6624BC1AACFADABE438 /* Pods-SMS Encrypter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABC6D1D5894F718561AD92D538C88B5 /* Pods-SMS Encrypter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02F8A452ED9AD06412ED30FAA600821 /* Pods-SMS EncrypterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FD06BDE42FD57644BCE6097523AA0 /* Pods-SMS EncrypterTests-dummy.m */; };
+		D3D25433D11844F42FCBB5AFE986BF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D45DEC2AD55BD5693D79B9F914039167 /* Pods-SMS Encrypter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A637EB7832C84C1A0488297FD1196D /* Pods-SMS Encrypter-dummy.m */; };
+		EC728F62BEBB6CB83685D96E74F33FDC /* Pods-SMS EncrypterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9635A6B3B6ECAD5A9C7228B0556E12E /* Pods-SMS EncrypterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBB2964E1D60C57762E3089C7D3BEE5A /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E25FB9ECFADB88C882D9CF7136146BC8 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00AF455BDC5894F21D195534439733B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D6B1BCEB127B4078FCCD5A08B1E64F;
+			remoteInfo = RNCryptor;
+		};
+		469BFDB57BE8AFC8A6137E63520C0B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431CF898FDBD758274CF8F4B2A563519;
+			remoteInfo = "Pods-SMS Encrypter";
+		};
+		BEA0DB254D14CF7B976A669221624D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431CF898FDBD758274CF8F4B2A563519;
+			remoteInfo = "Pods-SMS Encrypter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028B0ACD7F39DF497158225B30FBF446 /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		05553713D6D5CBBDDC09CE7EE5AAA4DE /* Pods-SMS Encrypter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS Encrypter-frameworks.sh"; sourceTree = "<group>"; };
+		09BC31C338B5EC3C10BAA5A83671D46F /* Pods_SMS_EncrypterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMS_EncrypterUITests.framework; path = "Pods-SMS EncrypterUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C61A4870242F253C34CB45DE5E434F2 /* Pods-SMS EncrypterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS EncrypterTests.release.xcconfig"; sourceTree = "<group>"; };
+		0FF983CCA6A75F35DCFCB2BCDA767AFA /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		1B9B4F46474ED8ADBE0516271D3CB51D /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
+		21598308D4A791F548973B71C7721AFC /* Pods-SMS EncrypterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMS EncrypterUITests-dummy.m"; sourceTree = "<group>"; };
+		2BE1C58BF61FD2D68B0CE4BBEFA6BD71 /* Pods-SMS Encrypter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS Encrypter.release.xcconfig"; sourceTree = "<group>"; };
+		2E688BF35EE2EE0257A8E4671D073C93 /* Pods-SMS Encrypter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS Encrypter-acknowledgements.plist"; sourceTree = "<group>"; };
+		3131C9435DA0B86D94AB3890477EACA5 /* Pods-SMS EncrypterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMS EncrypterTests.modulemap"; sourceTree = "<group>"; };
+		46A637EB7832C84C1A0488297FD1196D /* Pods-SMS Encrypter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMS Encrypter-dummy.m"; sourceTree = "<group>"; };
+		4DF4BEF74EB818E84F0B82B8A4E43274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5672C2A0C1204B76EA7103C07335AB48 /* Pods-SMS EncrypterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS EncrypterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		597BBC205D14AFCDAC776FC2312A77B5 /* RNCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNCryptor.framework; path = RNCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABC6D1D5894F718561AD92D538C88B5 /* Pods-SMS Encrypter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMS Encrypter-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B43FD3BD3EC3F06B385485880B39A6D /* RNCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RNCryptor.swift; path = Sources/RNCryptor/RNCryptor.swift; sourceTree = "<group>"; };
+		6C452AE4F21262E7CEEFCB163B2CA0B4 /* Pods-SMS EncrypterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS EncrypterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75F6405A29DD0B14065F8FA1216E2264 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DC3B3484D85212ABB4AF057CE99556 /* Pods-SMS EncrypterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMS EncrypterUITests-umbrella.h"; sourceTree = "<group>"; };
+		7DA9EEFEC429ADCC2C5D9D1703AA30D4 /* Pods-SMS EncrypterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS EncrypterTests-resources.sh"; sourceTree = "<group>"; };
+		7DF044D04F98011D1F37E5479E1C9351 /* RNCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-umbrella.h"; sourceTree = "<group>"; };
+		81A29A8BD2F7A0BE458B6AE0F9167376 /* Pods-SMS Encrypter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS Encrypter.debug.xcconfig"; sourceTree = "<group>"; };
+		81F315BEE7DCD8F2A80A26B4E7C18643 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EE8BE2C67011789E13118AE857D6C6 /* Pods-SMS EncrypterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS EncrypterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88EF476130496729201E2A9D03DE6CAA /* Pods-SMS Encrypter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMS Encrypter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		916932CAD3C78E4FDF1335DD3488F922 /* Pods-SMS EncrypterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMS EncrypterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9475F4B4038C0D3BEF2117A844673AAE /* Pods-SMS EncrypterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS EncrypterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		964FD06BDE42FD57644BCE6097523AA0 /* Pods-SMS EncrypterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMS EncrypterTests-dummy.m"; sourceTree = "<group>"; };
+		9AE67009421791886E54D91EF44BF8CE /* Pods-SMS Encrypter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMS Encrypter.modulemap"; sourceTree = "<group>"; };
+		A3E5CAEE56B76BAA8CF67808DF5C83D5 /* Pods-SMS EncrypterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMS EncrypterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8E468206BD6064058AC8994BCBDFDDF /* Pods-SMS EncrypterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS EncrypterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BBFAE7AAF3D8F6F808CDE8C9174136E5 /* Pods-SMS EncrypterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS EncrypterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDF9544AC66A23138D6E17A15E687225 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16BFBFAA824431F6DAAF7BC4334A959 /* Pods-SMS EncrypterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS EncrypterTests-frameworks.sh"; sourceTree = "<group>"; };
+		C916F3B21B95FB94F7F7280EDDE5CF34 /* Pods_SMS_EncrypterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMS_EncrypterTests.framework; path = "Pods-SMS EncrypterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99F1F092FFF299D39EF859D0FB46A47 /* Pods-SMS EncrypterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS EncrypterUITests-resources.sh"; sourceTree = "<group>"; };
+		D91776DDA2C45E61C1C68E338D38F7E2 /* Pods-SMS EncrypterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMS EncrypterUITests.modulemap"; sourceTree = "<group>"; };
+		D9635A6B3B6ECAD5A9C7228B0556E12E /* Pods-SMS EncrypterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMS EncrypterTests-umbrella.h"; sourceTree = "<group>"; };
+		E25FB9ECFADB88C882D9CF7136146BC8 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = Sources/Cryptor/include/RNCryptor.h; sourceTree = "<group>"; };
+		E43AEA5456C6B39765622883DEF7F4F5 /* Pods_SMS_Encrypter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMS_Encrypter.framework; path = "Pods-SMS Encrypter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E517707B3412BBF31290734EDBC1AD4E /* Pods-SMS Encrypter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS Encrypter-resources.sh"; sourceTree = "<group>"; };
+		EC720E7F4C6252FF043470F15E8B9FA3 /* RNCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNCryptor.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		127352D22495330A31A3D3FD51ECBC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BACAB48E27DA9B8A944A546E67DC70C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692925971DE00E18EE4B54F5BC40273B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D25433D11844F42FCBB5AFE986BF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0DF00B74FA6CE5A53B0F18316F36B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6BCE3A7FC3D9A2D4ACE6DE34D4DFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29996AED4FC887FDE6AB340F1500AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7909F5AB52DF1CEDFD9C1AB6323D394C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020FDD1D1F8F1F9855BC50080C9849A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54E7C20B4B262469A91EC9071D4C23C4 /* Pods-SMS Encrypter */,
+				75D32E0F9ED8B974CCE0F8CCE55B6047 /* Pods-SMS EncrypterTests */,
+				4B7F1E967AB38ED3476776D976BFE0BA /* Pods-SMS EncrypterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B7F1E967AB38ED3476776D976BFE0BA /* Pods-SMS EncrypterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF4BEF74EB818E84F0B82B8A4E43274 /* Info.plist */,
+				D91776DDA2C45E61C1C68E338D38F7E2 /* Pods-SMS EncrypterUITests.modulemap */,
+				A3E5CAEE56B76BAA8CF67808DF5C83D5 /* Pods-SMS EncrypterUITests-acknowledgements.markdown */,
+				BBFAE7AAF3D8F6F808CDE8C9174136E5 /* Pods-SMS EncrypterUITests-acknowledgements.plist */,
+				21598308D4A791F548973B71C7721AFC /* Pods-SMS EncrypterUITests-dummy.m */,
+				A8E468206BD6064058AC8994BCBDFDDF /* Pods-SMS EncrypterUITests-frameworks.sh */,
+				C99F1F092FFF299D39EF859D0FB46A47 /* Pods-SMS EncrypterUITests-resources.sh */,
+				79DC3B3484D85212ABB4AF057CE99556 /* Pods-SMS EncrypterUITests-umbrella.h */,
+				6C452AE4F21262E7CEEFCB163B2CA0B4 /* Pods-SMS EncrypterUITests.debug.xcconfig */,
+				9475F4B4038C0D3BEF2117A844673AAE /* Pods-SMS EncrypterUITests.release.xcconfig */,
+			);
+			name = "Pods-SMS EncrypterUITests";
+			path = "Target Support Files/Pods-SMS EncrypterUITests";
+			sourceTree = "<group>";
+		};
+		52B38B4E2CC86E2D5CB15CC436D992C9 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				E25FB9ECFADB88C882D9CF7136146BC8 /* RNCryptor.h */,
+				6B43FD3BD3EC3F06B385485880B39A6D /* RNCryptor.swift */,
+				663F5532E6D7AF980B859EF76EF6AC54 /* Support Files */,
+			);
+			name = RNCryptor;
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		54E7C20B4B262469A91EC9071D4C23C4 /* Pods-SMS Encrypter */ = {
+			isa = PBXGroup;
+			children = (
+				75F6405A29DD0B14065F8FA1216E2264 /* Info.plist */,
+				9AE67009421791886E54D91EF44BF8CE /* Pods-SMS Encrypter.modulemap */,
+				88EF476130496729201E2A9D03DE6CAA /* Pods-SMS Encrypter-acknowledgements.markdown */,
+				2E688BF35EE2EE0257A8E4671D073C93 /* Pods-SMS Encrypter-acknowledgements.plist */,
+				46A637EB7832C84C1A0488297FD1196D /* Pods-SMS Encrypter-dummy.m */,
+				05553713D6D5CBBDDC09CE7EE5AAA4DE /* Pods-SMS Encrypter-frameworks.sh */,
+				E517707B3412BBF31290734EDBC1AD4E /* Pods-SMS Encrypter-resources.sh */,
+				5ABC6D1D5894F718561AD92D538C88B5 /* Pods-SMS Encrypter-umbrella.h */,
+				81A29A8BD2F7A0BE458B6AE0F9167376 /* Pods-SMS Encrypter.debug.xcconfig */,
+				2BE1C58BF61FD2D68B0CE4BBEFA6BD71 /* Pods-SMS Encrypter.release.xcconfig */,
+			);
+			name = "Pods-SMS Encrypter";
+			path = "Target Support Files/Pods-SMS Encrypter";
+			sourceTree = "<group>";
+		};
+		663F5532E6D7AF980B859EF76EF6AC54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9544AC66A23138D6E17A15E687225 /* Info.plist */,
+				EC720E7F4C6252FF043470F15E8B9FA3 /* RNCryptor.modulemap */,
+				1B9B4F46474ED8ADBE0516271D3CB51D /* RNCryptor.xcconfig */,
+				0FF983CCA6A75F35DCFCB2BCDA767AFA /* RNCryptor-dummy.m */,
+				028B0ACD7F39DF497158225B30FBF446 /* RNCryptor-prefix.pch */,
+				7DF044D04F98011D1F37E5479E1C9351 /* RNCryptor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor";
+			sourceTree = "<group>";
+		};
+		75D32E0F9ED8B974CCE0F8CCE55B6047 /* Pods-SMS EncrypterTests */ = {
+			isa = PBXGroup;
+			children = (
+				81F315BEE7DCD8F2A80A26B4E7C18643 /* Info.plist */,
+				3131C9435DA0B86D94AB3890477EACA5 /* Pods-SMS EncrypterTests.modulemap */,
+				916932CAD3C78E4FDF1335DD3488F922 /* Pods-SMS EncrypterTests-acknowledgements.markdown */,
+				82EE8BE2C67011789E13118AE857D6C6 /* Pods-SMS EncrypterTests-acknowledgements.plist */,
+				964FD06BDE42FD57644BCE6097523AA0 /* Pods-SMS EncrypterTests-dummy.m */,
+				C16BFBFAA824431F6DAAF7BC4334A959 /* Pods-SMS EncrypterTests-frameworks.sh */,
+				7DA9EEFEC429ADCC2C5D9D1703AA30D4 /* Pods-SMS EncrypterTests-resources.sh */,
+				D9635A6B3B6ECAD5A9C7228B0556E12E /* Pods-SMS EncrypterTests-umbrella.h */,
+				5672C2A0C1204B76EA7103C07335AB48 /* Pods-SMS EncrypterTests.debug.xcconfig */,
+				0C61A4870242F253C34CB45DE5E434F2 /* Pods-SMS EncrypterTests.release.xcconfig */,
+			);
+			name = "Pods-SMS EncrypterTests";
+			path = "Target Support Files/Pods-SMS EncrypterTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C8D414FFF8F7AAF580546C94B73D219A /* Pods */,
+				EBC8824BFB2D11114C112822A1B3CC9E /* Products */,
+				020FDD1D1F8F1F9855BC50080C9849A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D414FFF8F7AAF580546C94B73D219A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52B38B4E2CC86E2D5CB15CC436D992C9 /* RNCryptor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBC8824BFB2D11114C112822A1B3CC9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43AEA5456C6B39765622883DEF7F4F5 /* Pods_SMS_Encrypter.framework */,
+				C916F3B21B95FB94F7F7280EDDE5CF34 /* Pods_SMS_EncrypterTests.framework */,
+				09BC31C338B5EC3C10BAA5A83671D46F /* Pods_SMS_EncrypterUITests.framework */,
+				597BBC205D14AFCDAC776FC2312A77B5 /* RNCryptor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C2130D8FC570A9E4BC903A293A5B610 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4C8D44EFA722BB8A7919F0699564C1 /* RNCryptor-umbrella.h in Headers */,
+				FBB2964E1D60C57762E3089C7D3BEE5A /* RNCryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304ECFE2112FCECBC6B83EBE86FC132 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9313EDBCA48E6624BC1AACFADABE438 /* Pods-SMS Encrypter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48489B753B4BBBA4C79C39125B6469 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF0A41966F0C98F0CDD2D9EB043B59 /* Pods-SMS EncrypterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD87A0EFCCAD9B95DAEE2616C39FB1DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC728F62BEBB6CB83685D96E74F33FDC /* Pods-SMS EncrypterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		431CF898FDBD758274CF8F4B2A563519 /* Pods-SMS Encrypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9568768CD3D79E139F635E8DA422781B /* Build configuration list for PBXNativeTarget "Pods-SMS Encrypter" */;
+			buildPhases = (
+				DF462E92BDE27D02198D1EC600F82EA6 /* Sources */,
+				AE0DF00B74FA6CE5A53B0F18316F36B5 /* Frameworks */,
+				4304ECFE2112FCECBC6B83EBE86FC132 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C491B357C3CC5148B75727CBB7EF4F /* PBXTargetDependency */,
+			);
+			name = "Pods-SMS Encrypter";
+			productName = "Pods-SMS Encrypter";
+			productReference = E43AEA5456C6B39765622883DEF7F4F5 /* Pods_SMS_Encrypter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84E9027D3AA0BD7992C5CFABC0C71931 /* Pods-SMS EncrypterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174C8722D9AB895953E6E19A2D7256FD /* Build configuration list for PBXNativeTarget "Pods-SMS EncrypterTests" */;
+			buildPhases = (
+				F800A077D9F5D037E52D7F1D498FE9B9 /* Sources */,
+				B29996AED4FC887FDE6AB340F1500AD4 /* Frameworks */,
+				CD87A0EFCCAD9B95DAEE2616C39FB1DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C13C30A03164802EA5C0E3565F1AD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMS EncrypterTests";
+			productName = "Pods-SMS EncrypterTests";
+			productReference = C916F3B21B95FB94F7F7280EDDE5CF34 /* Pods_SMS_EncrypterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8CDA0B5B100449C6F55F39041D533E9 /* Pods-SMS EncrypterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7696D089AE0E7651245452C808EB2E13 /* Build configuration list for PBXNativeTarget "Pods-SMS EncrypterUITests" */;
+			buildPhases = (
+				6BA9FB11DB14D4B9C82BB6298534228F /* Sources */,
+				127352D22495330A31A3D3FD51ECBC39 /* Frameworks */,
+				AC48489B753B4BBBA4C79C39125B6469 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C4F37FC7A00251F0CCC56415254CFA /* PBXTargetDependency */,
+			);
+			name = "Pods-SMS EncrypterUITests";
+			productName = "Pods-SMS EncrypterUITests";
+			productReference = 09BC31C338B5EC3C10BAA5A83671D46F /* Pods_SMS_EncrypterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4D6B1BCEB127B4078FCCD5A08B1E64F /* RNCryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110256EA9890591A6FF0CD6AAF6ACE98 /* Build configuration list for PBXNativeTarget "RNCryptor" */;
+			buildPhases = (
+				982024B9BD2A154E2488012830D6D6A0 /* Sources */,
+				692925971DE00E18EE4B54F5BC40273B /* Frameworks */,
+				1C2130D8FC570A9E4BC903A293A5B610 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCryptor;
+			productName = RNCryptor;
+			productReference = 597BBC205D14AFCDAC776FC2312A77B5 /* RNCryptor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EBC8824BFB2D11114C112822A1B3CC9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431CF898FDBD758274CF8F4B2A563519 /* Pods-SMS Encrypter */,
+				84E9027D3AA0BD7992C5CFABC0C71931 /* Pods-SMS EncrypterTests */,
+				C8CDA0B5B100449C6F55F39041D533E9 /* Pods-SMS EncrypterUITests */,
+				F4D6B1BCEB127B4078FCCD5A08B1E64F /* RNCryptor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA9FB11DB14D4B9C82BB6298534228F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9D82C69CF10A3A893184CF70DEC18E /* Pods-SMS EncrypterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982024B9BD2A154E2488012830D6D6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A211A401FC360B08748A275CC113EE /* RNCryptor-dummy.m in Sources */,
+				01A2D899510B4287CEC5AD79E0C600A2 /* RNCryptor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF462E92BDE27D02198D1EC600F82EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45DEC2AD55BD5693D79B9F914039167 /* Pods-SMS Encrypter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F800A077D9F5D037E52D7F1D498FE9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F8A452ED9AD06412ED30FAA600821 /* Pods-SMS EncrypterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67C4F37FC7A00251F0CCC56415254CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMS Encrypter";
+			target = 431CF898FDBD758274CF8F4B2A563519 /* Pods-SMS Encrypter */;
+			targetProxy = BEA0DB254D14CF7B976A669221624D4C /* PBXContainerItemProxy */;
+		};
+		B4C491B357C3CC5148B75727CBB7EF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNCryptor;
+			target = F4D6B1BCEB127B4078FCCD5A08B1E64F /* RNCryptor */;
+			targetProxy = 00AF455BDC5894F21D195534439733B8 /* PBXContainerItemProxy */;
+		};
+		D4C13C30A03164802EA5C0E3565F1AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMS Encrypter";
+			target = 431CF898FDBD758274CF8F4B2A563519 /* Pods-SMS Encrypter */;
+			targetProxy = 469BFDB57BE8AFC8A6137E63520C0B7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BA989B25FF3B73E21F0BDF68FB009CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C61A4870242F253C34CB45DE5E434F2 /* Pods-SMS EncrypterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS EncrypterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS EncrypterTests/Pods-SMS EncrypterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		215614ED5F0D695B42FBA3A74D81031D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9B4F46474ED8ADBE0516271D3CB51D /* RNCryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor/RNCryptor.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor;
+				PRODUCT_NAME = RNCryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B7ADE8E4EA6FB09D3BE8350E1FEF0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9475F4B4038C0D3BEF2117A844673AAE /* Pods-SMS EncrypterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS EncrypterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS EncrypterUITests/Pods-SMS EncrypterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64AA0A31CD4E43645F8696EB24E90CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9B4F46474ED8ADBE0516271D3CB51D /* RNCryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor/RNCryptor.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor;
+				PRODUCT_NAME = RNCryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70671CC3F5DB7E3EB97C62D3FC8C3054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5672C2A0C1204B76EA7103C07335AB48 /* Pods-SMS EncrypterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS EncrypterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS EncrypterTests/Pods-SMS EncrypterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B503E84CB75764AD8232EC7025C6578D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C452AE4F21262E7CEEFCB163B2CA0B4 /* Pods-SMS EncrypterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS EncrypterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS EncrypterUITests/Pods-SMS EncrypterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8E6D11A37914E98E691B98C670B3F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A29A8BD2F7A0BE458B6AE0F9167376 /* Pods-SMS Encrypter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS Encrypter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS Encrypter/Pods-SMS Encrypter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7669540AF74B6B5F0061320C980D7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE1C58BF61FD2D68B0CE4BBEFA6BD71 /* Pods-SMS Encrypter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS Encrypter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS Encrypter/Pods-SMS Encrypter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110256EA9890591A6FF0CD6AAF6ACE98 /* Build configuration list for PBXNativeTarget "RNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AA0A31CD4E43645F8696EB24E90CB6 /* Debug */,
+				215614ED5F0D695B42FBA3A74D81031D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174C8722D9AB895953E6E19A2D7256FD /* Build configuration list for PBXNativeTarget "Pods-SMS EncrypterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70671CC3F5DB7E3EB97C62D3FC8C3054 /* Debug */,
+				0BA989B25FF3B73E21F0BDF68FB009CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7696D089AE0E7651245452C808EB2E13 /* Build configuration list for PBXNativeTarget "Pods-SMS EncrypterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B503E84CB75764AD8232EC7025C6578D /* Debug */,
+				3B7ADE8E4EA6FB09D3BE8350E1FEF0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9568768CD3D79E139F635E8DA422781B /* Build configuration list for PBXNativeTarget "Pods-SMS Encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6D11A37914E98E691B98C670B3F6A /* Debug */,
+				F7669540AF74B6B5F0061320C980D7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

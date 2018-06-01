@@ -1,0 +1,6 @@
+framework module Pods_SMS_EncrypterUITests {
+  umbrella header "Pods-SMS EncrypterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

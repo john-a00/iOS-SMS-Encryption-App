@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0lc-zH-vLv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1YI-pQ-wMY">
+            <objects>
+                <viewController id="oGL-lo-zKB" customClass="ViewController" customModule="SMS_Encrypter" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="chn-43-HFF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bDu-3m-l0Y">
+                                <rect key="frame" x="0.0" y="84" width="0.0" height="224"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMS Encrypter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaF-ke-s2J">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="31.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9MQ-Sq-azr">
+                                        <rect key="frame" x="0.0" y="31.5" width="0.0" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AB4-t3-hZi">
+                                        <rect key="frame" x="0.0" y="52" width="0.0" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text to Encrypt/Decrypt" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hcb-WK-G5n">
+                                        <rect key="frame" x="0.0" y="72.5" width="0.0" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUs-9F-0Zw">
+                                        <rect key="frame" x="0.0" y="102.5" width="0.0" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1PG-Pw-ViS">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="30"/>
+                                                <state key="normal" title="Encrypt"/>
+                                                <connections>
+                                                    <action selector="encryptPress:" destination="aT1-oL-8wQ" eventType="touchUpInside" id="hqe-Ed-smb"/>
+                                                    <action selector="encryptSend:" destination="oGL-lo-zKB" eventType="touchUpInside" id="T90-rN-nLr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-mI-yYG">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="30"/>
+                                                <state key="normal" title="Decrypt"/>
+                                                <connections>
+                                                    <action selector="decryptPress:" destination="aT1-oL-8wQ" eventType="touchUpInside" id="fcf-Sd-QoI"/>
+                                                    <action selector="decryptPress:" destination="oGL-lo-zKB" eventType="touchUpInside" id="hzT-YF-Glp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="c7I-mI-yYG" firstAttribute="width" secondItem="1PG-Pw-ViS" secondAttribute="width" id="EfO-pP-sgR"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8s-h3-NN9">
+                                        <rect key="frame" x="0.0" y="132.5" width="0.0" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOO-Qy-igg">
+                                        <rect key="frame" x="0.0" y="153" width="0.0" height="30"/>
+                                        <state key="normal" title="Send Via SMS"/>
+                                        <connections>
+                                            <segue destination="oFX-cz-t8f" kind="show" id="zOB-YJ-xwh"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jca-dN-dGc">
+                                        <rect key="frame" x="0.0" y="183" width="0.0" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Output Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuU-ET-oFT">
+                                        <rect key="frame" x="0.0" y="203.5" width="0.0" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xuU-ET-oFT" firstAttribute="leading" secondItem="bDu-3m-l0Y" secondAttribute="leading" id="4E5-VP-H8x"/>
+                                    <constraint firstAttribute="trailing" secondItem="xuU-ET-oFT" secondAttribute="trailing" id="Ipj-5J-Nwx"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bDu-3m-l0Y" firstAttribute="width" secondItem="chn-43-HFF" secondAttribute="height" multiplier="343:667" id="Q4o-Uc-xsp"/>
+                            <constraint firstItem="bDu-3m-l0Y" firstAttribute="top" secondItem="Bwr-e1-Mdl" secondAttribute="top" constant="20" id="Vk3-bF-efV"/>
+                            <constraint firstItem="bDu-3m-l0Y" firstAttribute="leading" secondItem="Bwr-e1-Mdl" secondAttribute="leading" constant="16" id="k2x-xX-0Lb"/>
+                            <constraint firstItem="Bwr-e1-Mdl" firstAttribute="trailing" secondItem="bDu-3m-l0Y" secondAttribute="trailing" constant="16" id="tpW-zG-ABa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bwr-e1-Mdl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2gi-b2-ln4"/>
+                    <connections>
+                        <outlet property="inputText" destination="Hcb-WK-G5n" id="KeR-xH-qJH"/>
+                        <outlet property="outputText" destination="xuU-ET-oFT" id="Ahj-vX-Rl7"/>
+                        <outlet property="sendViaSMS" destination="iOO-Qy-igg" id="YmA-L6-SmE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gyt-Ae-M3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="aT1-oL-8wQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wp3-Fm-3ZD">
+            <objects>
+                <viewController id="oFX-cz-t8f" customClass="ViewController" customModule="SMS_Encrypter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7oS-zV-ILE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ImJ-Lm-4sI">
+                                <rect key="frame" x="16" y="84" width="343" height="409"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMS Encrypter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EN-va-ETB">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="31.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC2-OP-j8V">
+                                        <rect key="frame" x="0.0" y="31.5" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TID-Jn-o70">
+                                        <rect key="frame" x="0.0" y="52" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dp2-h0-ebA">
+                                        <rect key="frame" x="0.0" y="72.5" width="343" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Number: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbV-u9-8F2">
+                                                <rect key="frame" x="0.0" y="0.0" width="126.5" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="fjC-FV-lkz">
+                                                <rect key="frame" x="126.5" y="0.0" width="216.5" height="50"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="editPhoneNumber:" destination="oFX-cz-t8f" eventType="editingDidBegin" id="CIC-JI-WUa"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Wd7-dl-Dpn"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHv-ux-gAa">
+                                        <rect key="frame" x="0.0" y="122.5" width="343" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ruw-SH-gHZ">
+                                        <rect key="frame" x="0.0" y="134.5" width="343" height="30"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ftZ-Xn-uyd">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wu8-Gf-9X4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                                        <state key="normal" title="Send SMS"/>
+                                                        <connections>
+                                                            <action selector="sendSMS:" destination="oFX-cz-t8f" eventType="touchUpInside" id="ow5-Ke-Y8O"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7F0-iK-itI">
+                                        <rect key="frame" x="0.0" y="164.5" width="343" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMS Body:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDT-SK-vWJ">
+                                        <rect key="frame" x="0.0" y="176.5" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Enter Phone number to send encrypted message!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iXz-1R-gGU">
+                                        <rect key="frame" x="0.0" y="197" width="343" height="212"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ImJ-Lm-4sI" secondAttribute="height" multiplier="343:409" id="Q34-2J-m4y"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dp2-h0-ebA" secondAttribute="trailing" id="TGN-Vg-Ebj"/>
+                                    <constraint firstItem="Dp2-h0-ebA" firstAttribute="top" secondItem="TID-Jn-o70" secondAttribute="bottom" id="rND-rR-jvC"/>
+                                    <constraint firstItem="Dp2-h0-ebA" firstAttribute="leading" secondItem="ImJ-Lm-4sI" secondAttribute="leading" id="w9v-bc-CYi"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ImJ-Lm-4sI" firstAttribute="top" secondItem="Krf-lo-g1T" secondAttribute="top" constant="20" id="B9b-js-zGd"/>
+                            <constraint firstItem="ImJ-Lm-4sI" firstAttribute="leading" secondItem="Krf-lo-g1T" secondAttribute="leading" constant="16" id="MLU-9c-BYk"/>
+                            <constraint firstItem="Krf-lo-g1T" firstAttribute="trailing" secondItem="ImJ-Lm-4sI" secondAttribute="trailing" constant="16" id="myV-ee-StP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Krf-lo-g1T"/>
+                    </view>
+                    <connections>
+                        <outlet property="receiverNumber" destination="fjC-FV-lkz" id="0PP-bo-LE8"/>
+                        <outlet property="smsBody" destination="iXz-1R-gGU" id="tq7-0Z-f93"/>
+                        <outlet property="smsNumber" destination="fjC-FV-lkz" id="4mH-1F-iuv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xeS-HQ-6m3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1908" y="111.99400299850076"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f4C-UF-WPb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0lc-zH-vLv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iMS-Qy-nMu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oGL-lo-zKB" kind="relationship" relationship="rootViewController" id="urs-Vn-DZK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Eg-FP-TjX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="116"/>
+        </scene>
+    </scenes>
+</document>

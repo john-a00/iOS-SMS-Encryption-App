@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B4110FF65322E093E656FF /* Pods_SMS_EncrypterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75826399046C420BF1C1E1A /* Pods_SMS_EncrypterTests.framework */; };
+		A05FC140819F690044AE8781 /* Pods_SMS_Encrypter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E795BADFFE0F38CD3258D13 /* Pods_SMS_Encrypter.framework */; };
+		C226FFAC7207B62D92756E00 /* Pods_SMS_EncrypterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8743EFCA680381D48775B40E /* Pods_SMS_EncrypterUITests.framework */; };
+		C9040ACE20C16E680092DF31 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9040ACD20C16E680092DF31 /* MessageComposer.swift */; };
+		C9381F1920BE6A13007D3A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9381F1820BE6A13007D3A79 /* AppDelegate.swift */; };
+		C9381F1B20BE6A13007D3A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9381F1A20BE6A13007D3A79 /* ViewController.swift */; };
+		C9381F1E20BE6A13007D3A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9381F1C20BE6A13007D3A79 /* Main.storyboard */; };
+		C9381F2020BE6A13007D3A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9381F1F20BE6A13007D3A79 /* Assets.xcassets */; };
+		C9381F2320BE6A13007D3A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9381F2120BE6A13007D3A79 /* LaunchScreen.storyboard */; };
+		C9381F2E20BE6A13007D3A79 /* SMS_EncrypterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9381F2D20BE6A13007D3A79 /* SMS_EncrypterTests.swift */; };
+		C9381F3920BE6A13007D3A79 /* SMS_EncrypterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9381F3820BE6A13007D3A79 /* SMS_EncrypterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9381F2A20BE6A13007D3A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9381F0D20BE6A12007D3A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9381F1420BE6A13007D3A79;
+			remoteInfo = "SMS Encrypter";
+		};
+		C9381F3520BE6A13007D3A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9381F0D20BE6A12007D3A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9381F1420BE6A13007D3A79;
+			remoteInfo = "SMS Encrypter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E9089EFA3AB68605E698A0E /* Pods-SMS EncrypterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS EncrypterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMS EncrypterUITests/Pods-SMS EncrypterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E795BADFFE0F38CD3258D13 /* Pods_SMS_Encrypter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMS_Encrypter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A68F894D5F453E2C8FD3D58 /* Pods-SMS EncrypterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS EncrypterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMS EncrypterTests/Pods-SMS EncrypterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8743EFCA680381D48775B40E /* Pods_SMS_EncrypterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMS_EncrypterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9362F159B9C5111B67BC4440 /* Pods-SMS EncrypterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS EncrypterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMS EncrypterUITests/Pods-SMS EncrypterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95C8AFB49EAA5B4E7040CA6A /* Pods-SMS Encrypter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS Encrypter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMS Encrypter/Pods-SMS Encrypter.debug.xcconfig"; sourceTree = "<group>"; };
+		9ACA93B98E7FBD3DFFD2B05E /* Pods-SMS EncrypterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS EncrypterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMS EncrypterTests/Pods-SMS EncrypterTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD79003C56A4A5EC75EB0518 /* Pods-SMS Encrypter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS Encrypter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMS Encrypter/Pods-SMS Encrypter.release.xcconfig"; sourceTree = "<group>"; };
+		C75826399046C420BF1C1E1A /* Pods_SMS_EncrypterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMS_EncrypterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9040ACD20C16E680092DF31 /* MessageComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
+		C9381F1520BE6A13007D3A79 /* SMS Encrypter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS Encrypter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9381F1820BE6A13007D3A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9381F1A20BE6A13007D3A79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9381F1D20BE6A13007D3A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9381F1F20BE6A13007D3A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9381F2220BE6A13007D3A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9381F2420BE6A13007D3A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9381F2920BE6A13007D3A79 /* SMS EncrypterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS EncrypterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9381F2D20BE6A13007D3A79 /* SMS_EncrypterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_EncrypterTests.swift; sourceTree = "<group>"; };
+		C9381F2F20BE6A13007D3A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9381F3420BE6A13007D3A79 /* SMS EncrypterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS EncrypterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9381F3820BE6A13007D3A79 /* SMS_EncrypterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_EncrypterUITests.swift; sourceTree = "<group>"; };
+		C9381F3A20BE6A13007D3A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9381F1220BE6A13007D3A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05FC140819F690044AE8781 /* Pods_SMS_Encrypter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9381F2620BE6A13007D3A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B4110FF65322E093E656FF /* Pods_SMS_EncrypterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9381F3120BE6A13007D3A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C226FFAC7207B62D92756E00 /* Pods_SMS_EncrypterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EBF277B0175F6C32E42195E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C8AFB49EAA5B4E7040CA6A /* Pods-SMS Encrypter.debug.xcconfig */,
+				AD79003C56A4A5EC75EB0518 /* Pods-SMS Encrypter.release.xcconfig */,
+				6A68F894D5F453E2C8FD3D58 /* Pods-SMS EncrypterTests.debug.xcconfig */,
+				9ACA93B98E7FBD3DFFD2B05E /* Pods-SMS EncrypterTests.release.xcconfig */,
+				9362F159B9C5111B67BC4440 /* Pods-SMS EncrypterUITests.debug.xcconfig */,
+				1E9089EFA3AB68605E698A0E /* Pods-SMS EncrypterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8A1FCBFC9D75A52445F6DD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E795BADFFE0F38CD3258D13 /* Pods_SMS_Encrypter.framework */,
+				C75826399046C420BF1C1E1A /* Pods_SMS_EncrypterTests.framework */,
+				8743EFCA680381D48775B40E /* Pods_SMS_EncrypterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9381F0C20BE6A12007D3A79 = {
+			isa = PBXGroup;
+			children = (
+				C9381F1720BE6A13007D3A79 /* SMS Encrypter */,
+				C9381F2C20BE6A13007D3A79 /* SMS EncrypterTests */,
+				C9381F3720BE6A13007D3A79 /* SMS EncrypterUITests */,
+				C9381F1620BE6A13007D3A79 /* Products */,
+				3EBF277B0175F6C32E42195E /* Pods */,
+				B8A1FCBFC9D75A52445F6DD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9381F1620BE6A13007D3A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9381F1520BE6A13007D3A79 /* SMS Encrypter.app */,
+				C9381F2920BE6A13007D3A79 /* SMS EncrypterTests.xctest */,
+				C9381F3420BE6A13007D3A79 /* SMS EncrypterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9381F1720BE6A13007D3A79 /* SMS Encrypter */ = {
+			isa = PBXGroup;
+			children = (
+				C9040ACD20C16E680092DF31 /* MessageComposer.swift */,
+				C9381F1820BE6A13007D3A79 /* AppDelegate.swift */,
+				C9381F1A20BE6A13007D3A79 /* ViewController.swift */,
+				C9381F1C20BE6A13007D3A79 /* Main.storyboard */,
+				C9381F1F20BE6A13007D3A79 /* Assets.xcassets */,
+				C9381F2120BE6A13007D3A79 /* LaunchScreen.storyboard */,
+				C9381F2420BE6A13007D3A79 /* Info.plist */,
+			);
+			path = "SMS Encrypter";
+			sourceTree = "<group>";
+		};
+		C9381F2C20BE6A13007D3A79 /* SMS EncrypterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9381F2D20BE6A13007D3A79 /* SMS_EncrypterTests.swift */,
+				C9381F2F20BE6A13007D3A79 /* Info.plist */,
+			);
+			path = "SMS EncrypterTests";
+			sourceTree = "<group>";
+		};
+		C9381F3720BE6A13007D3A79 /* SMS EncrypterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9381F3820BE6A13007D3A79 /* SMS_EncrypterUITests.swift */,
+				C9381F3A20BE6A13007D3A79 /* Info.plist */,
+			);
+			path = "SMS EncrypterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9381F1420BE6A13007D3A79 /* SMS Encrypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9381F3D20BE6A13007D3A79 /* Build configuration list for PBXNativeTarget "SMS Encrypter" */;
+			buildPhases = (
+				BFE75FC21C78998D987089E8 /* [CP] Check Pods Manifest.lock */,
+				C9381F1120BE6A13007D3A79 /* Sources */,
+				C9381F1220BE6A13007D3A79 /* Frameworks */,
+				C9381F1320BE6A13007D3A79 /* Resources */,
+				0B3073F434042802DF081677 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMS Encrypter";
+			productName = "SMS Encrypter";
+			productReference = C9381F1520BE6A13007D3A79 /* SMS Encrypter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9381F2820BE6A13007D3A79 /* SMS EncrypterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9381F4020BE6A13007D3A79 /* Build configuration list for PBXNativeTarget "SMS EncrypterTests" */;
+			buildPhases = (
+				EE0260D74482002E03385DBA /* [CP] Check Pods Manifest.lock */,
+				C9381F2520BE6A13007D3A79 /* Sources */,
+				C9381F2620BE6A13007D3A79 /* Frameworks */,
+				C9381F2720BE6A13007D3A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9381F2B20BE6A13007D3A79 /* PBXTargetDependency */,
+			);
+			name = "SMS EncrypterTests";
+			productName = "SMS EncrypterTests";
+			productReference = C9381F2920BE6A13007D3A79 /* SMS EncrypterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9381F3320BE6A13007D3A79 /* SMS EncrypterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9381F4320BE6A13007D3A79 /* Build configuration list for PBXNativeTarget "SMS EncrypterUITests" */;
+			buildPhases = (
+				B500AFB652D73E9EDCA96692 /* [CP] Check Pods Manifest.lock */,
+				C9381F3020BE6A13007D3A79 /* Sources */,
+				C9381F3120BE6A13007D3A79 /* Frameworks */,
+				C9381F3220BE6A13007D3A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9381F3620BE6A13007D3A79 /* PBXTargetDependency */,
+			);
+			name = "SMS EncrypterUITests";
+			productName = "SMS EncrypterUITests";
+			productReference = C9381F3420BE6A13007D3A79 /* SMS EncrypterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9381F0D20BE6A12007D3A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Matt Nolan";
+				TargetAttributes = {
+					C9381F1420BE6A13007D3A79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C9381F2820BE6A13007D3A79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9381F1420BE6A13007D3A79;
+					};
+					C9381F3320BE6A13007D3A79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9381F1420BE6A13007D3A79;
+					};
+				};
+			};
+			buildConfigurationList = C9381F1020BE6A12007D3A79 /* Build configuration list for PBXProject "SMS Encrypter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9381F0C20BE6A12007D3A79;
+			productRefGroup = C9381F1620BE6A13007D3A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9381F1420BE6A13007D3A79 /* SMS Encrypter */,
+				C9381F2820BE6A13007D3A79 /* SMS EncrypterTests */,
+				C9381F3320BE6A13007D3A79 /* SMS EncrypterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9381F1320BE6A13007D3A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9381F2320BE6A13007D3A79 /* LaunchScreen.storyboard in Resources */,
+				C9381F2020BE6A13007D3A79 /* Assets.xcassets in Resources */,
+				C9381F1E20BE6A13007D3A79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9381F2720BE6A13007D3A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9381F3220BE6A13007D3A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3073F434042802DF081677 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SMS Encrypter/Pods-SMS Encrypter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RNCryptor/RNCryptor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCryptor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMS Encrypter/Pods-SMS Encrypter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B500AFB652D73E9EDCA96692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMS EncrypterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE75FC21C78998D987089E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMS Encrypter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0260D74482002E03385DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMS EncrypterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9381F1120BE6A13007D3A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9040ACE20C16E680092DF31 /* MessageComposer.swift in Sources */,
+				C9381F1B20BE6A13007D3A79 /* ViewController.swift in Sources */,
+				C9381F1920BE6A13007D3A79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9381F2520BE6A13007D3A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9381F2E20BE6A13007D3A79 /* SMS_EncrypterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9381F3020BE6A13007D3A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9381F3920BE6A13007D3A79 /* SMS_EncrypterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9381F2B20BE6A13007D3A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9381F1420BE6A13007D3A79 /* SMS Encrypter */;
+			targetProxy = C9381F2A20BE6A13007D3A79 /* PBXContainerItemProxy */;
+		};
+		C9381F3620BE6A13007D3A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9381F1420BE6A13007D3A79 /* SMS Encrypter */;
+			targetProxy = C9381F3520BE6A13007D3A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9381F1C20BE6A13007D3A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9381F1D20BE6A13007D3A79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9381F2120BE6A13007D3A79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9381F2220BE6A13007D3A79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9381F3B20BE6A13007D3A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9381F3C20BE6A13007D3A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9381F3E20BE6A13007D3A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C8AFB49EAA5B4E7040CA6A /* Pods-SMS Encrypter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "SMS Encrypter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.SMS-Encrypter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9381F3F20BE6A13007D3A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD79003C56A4A5EC75EB0518 /* Pods-SMS Encrypter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "SMS Encrypter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.SMS-Encrypter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9381F4120BE6A13007D3A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A68F894D5F453E2C8FD3D58 /* Pods-SMS EncrypterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "SMS EncrypterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.SMS-EncrypterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS Encrypter.app/SMS Encrypter";
+			};
+			name = Debug;
+		};
+		C9381F4220BE6A13007D3A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACA93B98E7FBD3DFFD2B05E /* Pods-SMS EncrypterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "SMS EncrypterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.SMS-EncrypterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS Encrypter.app/SMS Encrypter";
+			};
+			name = Release;
+		};
+		C9381F4420BE6A13007D3A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9362F159B9C5111B67BC4440 /* Pods-SMS EncrypterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "SMS EncrypterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.SMS-EncrypterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SMS Encrypter";
+			};
+			name = Debug;
+		};
+		C9381F4520BE6A13007D3A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9089EFA3AB68605E698A0E /* Pods-SMS EncrypterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "SMS EncrypterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assignment.SMS-EncrypterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SMS Encrypter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9381F1020BE6A12007D3A79 /* Build configuration list for PBXProject "SMS Encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9381F3B20BE6A13007D3A79 /* Debug */,
+				C9381F3C20BE6A13007D3A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9381F3D20BE6A13007D3A79 /* Build configuration list for PBXNativeTarget "SMS Encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9381F3E20BE6A13007D3A79 /* Debug */,
+				C9381F3F20BE6A13007D3A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9381F4020BE6A13007D3A79 /* Build configuration list for PBXNativeTarget "SMS EncrypterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9381F4120BE6A13007D3A79 /* Debug */,
+				C9381F4220BE6A13007D3A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9381F4320BE6A13007D3A79 /* Build configuration list for PBXNativeTarget "SMS EncrypterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9381F4420BE6A13007D3A79 /* Debug */,
+				C9381F4520BE6A13007D3A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9381F0D20BE6A12007D3A79 /* Project object */;
+}
